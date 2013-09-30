@@ -1,0 +1,533 @@
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 39, 6, 3, 0, 'Linux-x86_64']] 	 [3 free]
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 40, 13, 3, 0, 'Linux-x86_64']] 	 [2 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/6.hdr -outputDir /mnt/CloudShare/data/detections/3/6/CTAutoProstate/0 -image_id 6 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/6/CTAutoProstate/0/detect.log, Linux-x86_64
+No machines available for task 0 -- skipping
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 41, 15, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/13.hdr -outputDir /mnt/CloudShare/data/detections/3/13/CTAutoProstate/0 -image_id 13 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/13/CTAutoProstate/0/detect.log, Linux-x86_64
+Task running@[10.0.0.11, Linux-x86_64] 	 (1 remaining) 	 [[11, 'CTAutoProstate', 42, 28, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Job running: PID 39453
+No machines available for task 0 -- skipping
+--- Job running: PID 39457
+No machines available for task 0 -- skipping
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/28.hdr -outputDir /mnt/CloudShare/data/detections/3/28/CTAutoProstate/0 -image_id 28 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/28/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/15.hdr -outputDir /mnt/CloudShare/data/detections/3/15/CTAutoProstate/0 -image_id 15 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/15/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 39473
+--- Job running: PID 39474
+-- Job finished (pid: 39473 )
+*** DONE 10.0.0.11, 	 took: 9.55 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 43, 53, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/53.hdr -outputDir /mnt/CloudShare/data/detections/3/53/CTAutoProstate/0 -image_id 53 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/53/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 39527
+-- Job finished (pid: 39453 )
+*** DONE 10.0.0.4, 	 took: 29.90 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 39474 )
+*** DONE 10.0.0.9, 	 took: 50.56 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 39527 )
+*** DONE 10.0.0.11, 	 took: 42.93 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 44, 6, 3, 0, 'Linux-x86_64']] 	 [2 free]
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 45, 13, 3, 0, 'Linux-x86_64']] 	 [1 free]
+No machines available for task 0 -- skipping
+Task running@[10.0.0.4, Linux-x86_64] 	 (1 remaining) 	 [[11, 'CTAutoProstate', 46, 15, 3, 0, 'Linux-x86_64']] 	 [1 free]
+No machines available for task 0 -- skipping
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/6.hdr -outputDir /mnt/CloudShare/data/detections/3/6/CTAutoProstate/0 -image_id 6 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/6/CTAutoProstate/0/detect.log, Linux-x86_64
+No machines available for task 0 -- skipping
+No machines available for task 0 -- skipping
+--- Job running: PID 39668
+No machines available for task 1 -- skipping
+No machines available for task 1 -- skipping
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/13.hdr -outputDir /mnt/CloudShare/data/detections/3/13/CTAutoProstate/0 -image_id 13 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/13/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/15.hdr -outputDir /mnt/CloudShare/data/detections/3/15/CTAutoProstate/0 -image_id 15 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/15/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 39677
+--- Job running: PID 39678
+-- Job finished (pid: 39457 )
+*** DONE 10.0.0.13, 	 took: 56.84 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.13, Linux-x86_64] 	 (1 remaining) 	 [[11, 'CTAutoProstate', 47, 28, 3, 0, 'Linux-x86_64']] 	 [1 free]
+No machines available for task 0 -- skipping
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/28.hdr -outputDir /mnt/CloudShare/data/detections/3/28/CTAutoProstate/0 -image_id 28 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/28/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 39700
+-- Job finished (pid: 39700 )
+*** DONE 10.0.0.13, 	 took: 7.91 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 48, 53, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/53.hdr -outputDir /mnt/CloudShare/data/detections/3/53/CTAutoProstate/0 -image_id 53 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/53/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 39726
+-- Job finished (pid: 39668 )
+*** DONE 10.0.0.11, 	 took: 31.84 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 39726 )
+*** DONE 10.0.0.13, 	 took: 35.23 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 39678 )
+*** DONE 10.0.0.4, 	 took: 52.77 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 39677 )
+*** DONE 10.0.0.9, 	 took: 55.68 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 49, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTAutoProstate/0 -image_id 17 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 41868
+-- Job finished (pid: 41868 )
+*** DONE 10.0.0.9, 	 took: 24.11 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 50, 32, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/32.hdr -outputDir /mnt/CloudShare/data/detections/3/32/CTFullBody/0 -image_id 32 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/32/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 42517
+-- Job finished (pid: 42517 )
+*** DONE 10.0.0.9, 	 took: 47.80 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRProstate', 51, 30, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRProstate/0/model/model.xsg -image /mnt/CloudShare/data/30.hdr -outputDir /mnt/CloudShare/data/detections/3/30/MRProstate/0 -image_id 30 -modelName MRProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/30/MRProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 42801
+-- Job finished (pid: 42801 )
+*** DONE 10.0.0.9, 	 took: 15.72 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 52, 460, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/460.hdr -outputDir /mnt/CloudShare/data/detections/3/460/CTAutoProstate/0 -image_id 460 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/460/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 47608
+-- Job finished (pid: 47608 )
+*** DONE 10.0.0.9, 	 took: 28.26 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 53, 460, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/460.hdr -outputDir /mnt/CloudShare/data/detections/3/460/CTFullBody/0 -image_id 460 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/460/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 47827
+-- Job finished (pid: 47827 )
+*** DONE 10.0.0.9, 	 took: 52.56 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 54, 460, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/460.hdr -outputDir /mnt/CloudShare/data/detections/3/460/CTFullBody/0 -image_id 460 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/460/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 57388
+-- Job finished (pid: 57388 )
+*** DONE 10.0.0.9, 	 took: 51.81 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 55, 17, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/1/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTFullBody/1 -image_id 17 -modelName CTFullBody -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTFullBody/1/detect.log, Linux-x86_64
+--- Job running: PID 58303
+-- Job finished (pid: 58303 )
+*** DONE 10.0.0.9, 	 took: 97.86 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 56, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTAutoProstate/0 -image_id 17 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 58730
+-- Job finished (pid: 58730 )
+*** DONE 10.0.0.9, 	 took: 17.57 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 57, 17, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/1/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTFullBody/1 -image_id 17 -modelName CTFullBody -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTFullBody/1/detect.log, Linux-x86_64
+--- Job running: PID 59049
+-- Job finished (pid: 59049 )
+*** DONE 10.0.0.9, 	 took: 89.78 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 58, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTAutoProstate/0 -image_id 17 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 64518
+-- Job finished (pid: 64518 )
+*** DONE 10.0.0.9, 	 took: 13.94 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 59, 461, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/461.hdr -outputDir /mnt/CloudShare/data/detections/3/461/CTFullBody/0 -image_id 461 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/461/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 2467
+-- Job finished (pid: 2467 )
+*** DONE 10.0.0.9, 	 took: 40.16 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 60, 462, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/462.hdr -outputDir /mnt/CloudShare/data/detections/3/462/CTAutoProstate/0 -image_id 462 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/462/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 3741
+-- Job finished (pid: 3741 )
+*** DONE 10.0.0.9, 	 took: 31.94 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 61, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTAutoProstate/0 -image_id 17 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 6064
+-- Job finished (pid: 6064 )
+*** DONE 10.0.0.9, 	 took: 15.97 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 62, 464, 4, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/464.hdr -outputDir /mnt/CloudShare/data/detections/4/464/CTFullBody/0 -image_id 464 -modelName CTFullBody -model_version 0 -user 4  > /var/www/html/onlinerender/data/detections/4/464/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 11537
+-- Job finished (pid: 11537 )
+*** DONE 10.0.0.9, 	 took: 29.22 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 63, 464, 4, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/464.hdr -outputDir /mnt/CloudShare/data/detections/4/464/CTFullBody/0 -image_id 464 -modelName CTFullBody -model_version 0 -user 4  > /var/www/html/onlinerender/data/detections/4/464/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 11961
+-- Job finished (pid: 11961 )
+*** DONE 10.0.0.9, 	 took: 27.17 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 64, 6, 3, 0, 'Linux-x86_64']] 	 [3 free]
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 65, 13, 3, 0, 'Linux-x86_64']] 	 [2 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/6.hdr -outputDir /mnt/CloudShare/data/detections/3/6/CTAutoProstate/0 -image_id 6 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/6/CTAutoProstate/0/detect.log, Linux-x86_64
+No machines available for task 0 -- skipping
+Task running@[10.0.0.11, Linux-x86_64] 	 (1 remaining) 	 [[11, 'CTAutoProstate', 67, 28, 3, 0, 'Linux-x86_64']] 	 [1 free]
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 66, 15, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/13.hdr -outputDir /mnt/CloudShare/data/detections/3/13/CTAutoProstate/0 -image_id 13 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/13/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 13426
+No machines available for task 0 -- skipping
+No machines available for task 0 -- skipping
+--- Job running: PID 13437
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/28.hdr -outputDir /mnt/CloudShare/data/detections/3/28/CTAutoProstate/0 -image_id 28 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/28/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/15.hdr -outputDir /mnt/CloudShare/data/detections/3/15/CTAutoProstate/0 -image_id 15 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/15/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 13448
+--- Job running: PID 13450
+-- Job finished (pid: 13448 )
+*** DONE 10.0.0.11, 	 took: 3.36 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[11, 'CTAutoProstate', 68, 53, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/53.hdr -outputDir /mnt/CloudShare/data/detections/3/53/CTAutoProstate/0 -image_id 53 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/53/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 13475
+-- Job finished (pid: 13475 )
+*** DONE 10.0.0.11, 	 took: 26.87 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 13426 )
+*** DONE 10.0.0.9, 	 took: 34.15 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 13437 )
+*** DONE 10.0.0.4, 	 took: 48.93 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 13450 )
+*** DONE 10.0.0.13, 	 took: 50.85 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRDixonLiver', 69, 465, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRDixonLiver/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRDixonLiver/1/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/MRDixonLiver/1 -image_id 465 -modelName MRDixonLiver -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/465/MRDixonLiver/1/detect.log, Linux-x86_64
+--- Job running: PID 34651
+-- Job finished (pid: 34651 )
+!!! ERROR 10.0.0.13, 	 took: 0.64 seconds 	 [exit code: 127]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRDixonLiver', 70, 465, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRDixonLiver/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRDixonLiver/1/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/MRDixonLiver/1 -image_id 465 -modelName MRDixonLiver -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/465/MRDixonLiver/1/detect.log, Linux-x86_64
+--- Job running: PID 36882
+-- Job finished (pid: 36882 )
+!!! ERROR 10.0.0.13, 	 took: 0.49 seconds 	 [exit code: 127]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 71, 465, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/CTAutoProstate/0 -image_id 465 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/465/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 38038
+-- Job finished (pid: 38038 )
+*** DONE 10.0.0.13, 	 took: 2.62 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRDixonLiver', 72, 465, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRDixonLiver/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRDixonLiver/1/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/MRDixonLiver/1 -image_id 465 -modelName MRDixonLiver -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/465/MRDixonLiver/1/detect.log, Linux-x86_64
+--- Job running: PID 38207
+-- Job finished (pid: 38207 )
+!!! ERROR 10.0.0.13, 	 took: 0.54 seconds 	 [exit code: 126]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRDixonLiver', 73, 465, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRDixonLiver/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRDixonLiver/1/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/MRDixonLiver/1 -image_id 465 -modelName MRDixonLiver -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/465/MRDixonLiver/1/detect.log, Linux-x86_64
+--- Job running: PID 41781
+-- Job finished (pid: 41781 )
+!!! ERROR 10.0.0.13, 	 took: 1.04 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 74, 465, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/CTAutoProstate/0 -image_id 465 -modelName CTAutoProstate -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/465/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 41971
+-- Job finished (pid: 41971 )
+*** DONE 10.0.0.13, 	 took: 2.14 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRDixonLiver', 75, 465, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRDixonLiver/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRDixonLiver/1/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/MRDixonLiver/1 -image_id 465 -modelName MRDixonLiver -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/465/MRDixonLiver/1/detect.log, Linux-x86_64
+--- Job running: PID 42214
+-- Job finished (pid: 42214 )
+!!! ERROR 10.0.0.13, 	 took: 0.65 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRDixonLiver', 76, 465, 3, 1, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRDixonLiver/1/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRDixonLiver/1/model/model.xsg -image /mnt/CloudShare/data/465.hdr -outputDir /mnt/CloudShare/data/detections/3/465/MRDixonLiver/1 -image_id 465 -modelName MRDixonLiver -model_version 1 -user 3  > /var/www/html/onlinerender/data/detections/3/465/MRDixonLiver/1/detect.log, Linux-x86_64
+--- Job running: PID 42429
+-- Job finished (pid: 42429 )
+!!! ERROR 10.0.0.13, 	 took: 0.66 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+***** Server started Tue Mar 12 20:48:35 2013 on port 8000 
+***** Servers: [pccs000560ws, Windows-x86_64], [10.0.0.13, Linux-x86_64], [10.0.0.9, Linux-x86_64], [10.0.0.4, Linux-x86_64], [10.0.0.11, Linux-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+***** Server started Tue Mar 12 20:49:57 2013 on port 8000 
+***** Servers: [pccs000560ws, Windows-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+***** Server started Tue Mar 12 20:50:57 2013 on port 8000 
+***** Servers: [pccs000560ws, Windows-x86_64], [pccs000560ws, Linux-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+***** Server started Tue Mar 12 20:51:47 2013 on port 8000 
+***** Servers: [pclocalhost, Linux-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+***** Server started Tue Mar 12 20:52:35 2013 on port 8000 
+***** Servers: [pccs000560ws, Windows-x86_64], [10.0.0.13, Linux-x86_64], [10.0.0.9, Linux-x86_64], [10.0.0.4, Linux-x86_64], [10.0.0.11, Linux-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 1, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 55385
+-- Job finished (pid: 55385 )
+!!! ERROR 10.0.0.11, 	 took: 0.62 seconds 	 [exit code: 127]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 2, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 57507
+-- Job finished (pid: 57507 )
+!!! ERROR 10.0.0.11, 	 took: 0.51 seconds 	 [exit code: 126]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 3, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 57626
+-- Job finished (pid: 57626 )
+!!! ERROR 10.0.0.11, 	 took: 1.54 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 4, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 61435
+-- Job finished (pid: 61435 )
+!!! ERROR 10.0.0.11, 	 took: 16.28 seconds 	 [exit code: 134]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 5, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 2207
+-- Job finished (pid: 2207 )
+!!! ERROR 10.0.0.11, 	 took: 0.57 seconds 	 [exit code: 126]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 6, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 4487
+-- Job finished (pid: 4487 )
+!!! ERROR 10.0.0.11, 	 took: 0.70 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 7, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 4755
+-- Job finished (pid: 4755 )
+!!! ERROR 10.0.0.11, 	 took: 0.59 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'TestModel', 8, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/TestModel/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/TestModel/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/TestModel/0 -image_id 17 -modelName TestModel -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/TestModel/0/detect.log, Linux-x86_64
+--- Job running: PID 4991
+-- Job finished (pid: 4991 )
+!!! ERROR 10.0.0.11, 	 took: 5.11 seconds 	 [exit code: 134]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 9, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 5558
+-- Job finished (pid: 5558 )
+*** DONE 10.0.0.11, 	 took: 22.41 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 10, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 5877
+-- Job finished (pid: 5877 )
+!!! ERROR 10.0.0.11, 	 took: 0.70 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 11, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 6100
+-- Job finished (pid: 6100 )
+!!! ERROR 10.0.0.11, 	 took: 0.59 seconds 	 [exit code: 127]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 12, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 6271
+-- Job finished (pid: 6271 )
+!!! ERROR 10.0.0.11, 	 took: 0.51 seconds 	 [exit code: 127]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 13, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 6772
+-- Job finished (pid: 6772 )
+*** DONE 10.0.0.11, 	 took: 26.58 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 14, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 7016
+-- Job finished (pid: 7016 )
+!!! ERROR 10.0.0.11, 	 took: 1.20 seconds 	 [exit code: 139]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTLiverProductization', 15, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTLiverProductization/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTLiverProductization/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTLiverProductization/0 -image_id 17 -modelName CTLiverProductization -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTLiverProductization/0/detect.log, Linux-x86_64
+--- Job running: PID 14294
+-- Job finished (pid: 14294 )
+*** DONE 10.0.0.11, 	 took: 23.12 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+***** Server started Wed Mar 13 16:45:09 2013 on port 8000 
+***** Servers: [pccs000560ws, Windows-x86_64], [10.0.0.13, Linux-x86_64], [10.0.0.9, Linux-x86_64], [10.0.0.4, Linux-x86_64], [10.0.0.11, Linux-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 1, 34, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/34.hdr -outputDir /mnt/CloudShare/data/detections/3/34/CTFullBody/0 -image_id 34 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/34/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 46275
+-- Job finished (pid: 46275 )
+!!! KILLED 10.0.0.11, 	 took: 46.19 seconds 	 [exit code: -9]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 2, 34, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/34.hdr -outputDir /mnt/CloudShare/data/detections/3/34/CTFullBody/0 -image_id 34 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/34/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 48111
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRFastView', 3, 17, 3, 0, 'Linux-x86_64']] 	 [3 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRFastView/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRFastView/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/MRFastView/0 -image_id 17 -modelName MRFastView -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/MRFastView/0/detect.log, Linux-x86_64
+--- Job running: PID 48864
+-- Job finished (pid: 48864 )
+*** DONE 10.0.0.4, 	 took: 3.37 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRFastView', 4, 16, 3, 0, 'Linux-x86_64']] 	 [3 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRFastView/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRFastView/0/model/model.xsg -image /mnt/CloudShare/data/16.hdr -outputDir /mnt/CloudShare/data/detections/3/16/MRFastView/0 -image_id 16 -modelName MRFastView -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/16/MRFastView/0/detect.log, Linux-x86_64
+--- Job running: PID 49056
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRFastView', 5, 18, 3, 0, 'Linux-x86_64']] 	 [2 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRFastView/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRFastView/0/model/model.xsg -image /mnt/CloudShare/data/18.hdr -outputDir /mnt/CloudShare/data/detections/3/18/MRFastView/0 -image_id 18 -modelName MRFastView -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/18/MRFastView/0/detect.log, Linux-x86_64
+--- Job running: PID 49154
+-- Job finished (pid: 49056 )
+*** DONE 10.0.0.4, 	 took: 4.27 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRFastView', 6, 19, 3, 0, 'Linux-x86_64']] 	 [2 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRFastView/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRFastView/0/model/model.xsg -image /mnt/CloudShare/data/19.hdr -outputDir /mnt/CloudShare/data/detections/3/19/MRFastView/0 -image_id 19 -modelName MRFastView -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/19/MRFastView/0/detect.log, Linux-x86_64
+--- Job running: PID 49249
+-- Job finished (pid: 49154 )
+*** DONE 10.0.0.9, 	 took: 5.20 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRFastView', 7, 20, 3, 0, 'Linux-x86_64']] 	 [2 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRFastView/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRFastView/0/model/model.xsg -image /mnt/CloudShare/data/20.hdr -outputDir /mnt/CloudShare/data/detections/3/20/MRFastView/0 -image_id 20 -modelName MRFastView -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/20/MRFastView/0/detect.log, Linux-x86_64
+--- Job running: PID 49349
+-- Job finished (pid: 48111 )
+!!! KILLED 10.0.0.11, 	 took: 42.30 seconds 	 [exit code: -9]
+
+-- Job finished (pid: 49249 )
+*** DONE 10.0.0.4, 	 took: 5.81 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[10, 'MRFastView', 8, 21, 3, 0, 'Linux-x86_64']] 	 [3 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/MRFastView/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/MRFastView/0/model/model.xsg -image /mnt/CloudShare/data/21.hdr -outputDir /mnt/CloudShare/data/detections/3/21/MRFastView/0 -image_id 21 -modelName MRFastView -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/21/MRFastView/0/detect.log, Linux-x86_64
+--- Job running: PID 49368
+-- Job finished (pid: 49349 )
+*** DONE 10.0.0.9, 	 took: 7.05 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 49368 )
+*** DONE 10.0.0.4, 	 took: 3.37 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 9, 21, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/21.hdr -outputDir /mnt/CloudShare/data/detections/3/21/CTFullBody/0 -image_id 21 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/21/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 49383
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 10, 17, 3, 0, 'Linux-x86_64']] 	 [3 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTFullBody/0 -image_id 17 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 49405
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 11, 17, 3, 0, 'Linux-x86_64']] 	 [2 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTFullBody/0 -image_id 17 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 49436
+Task running@[10.0.0.13, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 12, 17, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.13 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTFullBody/0 -image_id 17 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 49452
+No machines available for task 0 -- skipping
+-- Job finished (pid: 49405 )
+*** DONE 10.0.0.9, 	 took: 38.24 seconds 	 [exit code: 0]
+
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 13, 17, 3, 0, 'Linux-x86_64']] 	 [1 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTFullBody/0 -image_id 17 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 49486
+-- Job finished (pid: 49383 )
+*** DONE 10.0.0.4, 	 took: 51.17 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 49436 )
+*** DONE 10.0.0.11, 	 took: 39.95 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 49452 )
+*** DONE 10.0.0.13, 	 took: 39.26 seconds 	 [exit code: 0]
+
+-- Job finished (pid: 49486 )
+*** DONE 10.0.0.9, 	 took: 36.55 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTFullBody', 14, 17, 3, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTFullBody/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTFullBody/0/model/model.xsg -image /mnt/CloudShare/data/17.hdr -outputDir /mnt/CloudShare/data/detections/3/17/CTFullBody/0 -image_id 17 -modelName CTFullBody -model_version 0 -user 3  > /var/www/html/onlinerender/data/detections/3/17/CTFullBody/0/detect.log, Linux-x86_64
+--- Job running: PID 2814
+-- Job finished (pid: 2814 )
+!!! KILLED 10.0.0.9, 	 took: 35.79 seconds 	 [exit code: -9]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.9, Linux-x86_64] 	 (0 remaining) 	 [[10, 'TestModel', 15, 2, 2, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.9 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/TestModel/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/TestModel/0/model/model.xsg -image /mnt/CloudShare/data/2.hdr -outputDir /mnt/CloudShare/data/detections/2/2/TestModel/0 -image_id 2 -modelName TestModel -model_version 0 -user 2  > /var/www/html/onlinerender/data/detections/2/2/TestModel/0/detect.log, Linux-x86_64
+--- Job running: PID 54263
+-- Job finished (pid: 54263 )
+!!! ERROR 10.0.0.9, 	 took: 5.90 seconds 	 [exit code: 134]
+
+--- All Tasks Done, Waiting
+***** Server started Fri Mar 15 00:49:39 2013 on port 8000 
+***** Servers: [pccs000560ws, Windows-x86_64], [10.0.0.13, Linux-x86_64], [10.0.0.9, Linux-x86_64], [10.0.0.4, Linux-x86_64], [10.0.0.11, Linux-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'CTAutoProstate', 1, 2, 2, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/CTAutoProstate/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/CTAutoProstate/0/model/model.xsg -image /mnt/CloudShare/data/2.hdr -outputDir /mnt/CloudShare/data/detections/2/2/CTAutoProstate/0 -image_id 2 -modelName CTAutoProstate -model_version 0 -user 2  > /var/www/html/onlinerender/data/detections/2/2/CTAutoProstate/0/detect.log, Linux-x86_64
+--- Job running: PID 55033
+Task running@[10.0.0.4, Linux-x86_64] 	 (0 remaining) 	 [[10, 'TestModel', 2, 2, 2, 0, 'Linux-x86_64']] 	 [3 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.4 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/TestModel/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/TestModel/0/model/model.xsg -image /mnt/CloudShare/data/2.hdr -outputDir /mnt/CloudShare/data/detections/2/2/TestModel/0 -image_id 2 -modelName TestModel -model_version 0 -user 2  > /var/www/html/onlinerender/data/detections/2/2/TestModel/0/detect.log, Linux-x86_64
+--- Job running: PID 55049
+-- Job finished (pid: 55049 )
+!!! ERROR 10.0.0.4, 	 took: 5.95 seconds 	 [exit code: 134]
+
+-- Job finished (pid: 55033 )
+*** DONE 10.0.0.11, 	 took: 21.99 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'TestModel', 3, 2, 2, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/TestModel/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/TestModel/0/model/model.xsg -image /mnt/CloudShare/data/2.hdr -outputDir /mnt/CloudShare/data/detections/2/2/TestModel/0 -image_id 2 -modelName TestModel -model_version 0 -user 2  > /var/www/html/onlinerender/data/detections/2/2/TestModel/0/detect.log, Linux-x86_64
+--- Job running: PID 56417
+-- Job finished (pid: 56417 )
+!!! ERROR 10.0.0.11, 	 took: 2.69 seconds 	 [exit code: 134]
+
+--- All Tasks Done, Waiting
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'TestModel', 4, 2, 2, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/TestModel/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/TestModel/0/model/model.xsg -image /mnt/CloudShare/data/2.hdr -outputDir /mnt/CloudShare/data/detections/2/2/TestModel/0 -image_id 2 -modelName TestModel -model_version 0 -user 2  > /var/www/html/onlinerender/data/detections/2/2/TestModel/0/detect.log, Linux-x86_64
+--- Job running: PID 57257
+-- Job finished (pid: 57257 )
+!!! ERROR 10.0.0.11, 	 took: 0.52 seconds 	 [exit code: 127]
+
+--- All Tasks Done, Waiting
+***** Server started Fri Mar 15 01:05:49 2013 on port 8000 
+***** Servers: [pccs000560ws, Windows-x86_64], [10.0.0.13, Linux-x86_64], [10.0.0.9, Linux-x86_64], [10.0.0.4, Linux-x86_64], [10.0.0.11, Linux-x86_64]
+***** sshUser: ec2-user
+***** sshKeyFile: "/var/www/html/onlinerender/setup/oskey.priv"
+Task running@[10.0.0.11, Linux-x86_64] 	 (0 remaining) 	 [[10, 'TestModel', 1, 457, 2, 0, 'Linux-x86_64']] 	 [4 free]
+--- Preparing to run Job: ssh -i /var/www/html/onlinerender/setup/oskey.priv ec2-user@10.0.0.11 env IDTKCloudHost=10.0.0.1 /mnt/CloudShare/models/TestModel/0/bin/IDTKCloudDetection -network /mnt/CloudShare/models/TestModel/0/model/model.xsg -image /mnt/CloudShare/data/457.hdr -outputDir /mnt/CloudShare/data/detections/2/457/TestModel/0 -image_id 457 -modelName TestModel -model_version 0 -user 2  > /var/www/html/onlinerender/data/detections/2/457/TestModel/0/detect.log, Linux-x86_64
+--- Job running: PID 63676
+-- Job finished (pid: 63676 )
+*** DONE 10.0.0.11, 	 took: 10.55 seconds 	 [exit code: 0]
+
+--- All Tasks Done, Waiting
